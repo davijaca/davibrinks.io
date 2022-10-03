@@ -581,10 +581,12 @@ section {
   margin-left: 60px;
 }
 .about-list .image {
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 400px;
+  max-height: 600px;
+  width: auto;
+  min-width: 400px;
 }
 
 /*--------------------------------------------------------------
